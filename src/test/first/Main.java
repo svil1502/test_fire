@@ -40,7 +40,7 @@ public class Main {
 
             if (conn==null)
             {
-                System.err.println(" Нет соединения с БД ");
+                System.err.println(" Нет соединения с БД! ");
             }
 
             Statement stmt = conn.createStatement();
