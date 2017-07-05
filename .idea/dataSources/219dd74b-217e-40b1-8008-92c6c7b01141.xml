@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="Firebird - jdbc:firebirdsql:localhost/3050:/Users/Svetlanailina/Desktop/test_fire/EXAM.FDB">
+<dataSource name="EXAM.FDB">
   <database-model serializer="dbm" rdbms="UNKNOWN" format-version="4.2">
     <root id="1">
       <DefaultCasing>upper</DefaultCasing>
@@ -487,8 +487,8 @@ ID_O</ColNames>
     <index id="163" parent="14" name="RDB$INDEX_44">
       <ColNames>RDB$BACKUP_LEVEL
 RDB$BACKUP_ID</ColNames>
-      <ReverseColNames>RDB$BACKUP_LEVEL
-RDB$BACKUP_ID</ReverseColNames>
+      <ReverseColNames>RDB$BACKUP_ID
+RDB$BACKUP_LEVEL</ReverseColNames>
       <Unique>1</Unique>
     </index>
     <column id="164" parent="15" name="RDB$CHARACTER_SET_NAME">
