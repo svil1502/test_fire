@@ -10,7 +10,10 @@ public class Main {
     public static void main(String[] args) {
         String strDatabasePath = "/Users/svetlanailina/Desktop/test_fire/EXAM.FDB";
 
-        String strURL="jdbc:firebirdsql:localhost/3050:"+strDatabasePath;
+       // String strURL="jdbc:firebirdsql:localhost/3050:"+strDatabasePath;
+       // jdbc:firebirdsql:localhost/3050:alter?lc_ctype=WIN1251;sql_dialect=3
+        String strURL="jdbc:firebirdsql:localhost/3050:"+strDatabasePath+"?lc_ctype=WIN1251;sql_dialect=3";
+       // String strURL="jdbc:firebirdsql:localhost/3050:alter?lc_ctype=WIN1251;sql_dialect=3"+strDatabasePath;
         String strUser="SYSDBA";
         String strPassword= "sysdba";
         String strSQL="SELECT * from OTVET ";
